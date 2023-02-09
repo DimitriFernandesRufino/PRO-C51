@@ -125,7 +125,7 @@ if(zombieGroup.isTouching(player)){
       
   if(zombieGroup[i].isTouching(player)){
        zombieGroup[i].destroy()
-       player.life -= 1;
+       life=life-1;
        } 
  }
 }
